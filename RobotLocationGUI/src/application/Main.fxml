@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Polygon?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+	<children>
+		<ImageView fitHeight="656.0" fitWidth="1592.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+			<Image url="@../2019-field.jpg" />
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+		</ImageView>
+      <Polygon fx:id="robot" layoutX="250.0" layoutY="340.0" opacity="0.5" points="-50.0, 40.0, 50.0, 40.0, 0.0, -60.0" rotate="90.0" scaleX="0.5" scaleY="0.5" scaleZ="0.5" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" proportional="false" startX="1.0" startY="0.5">
+               <stops>
+                  <Stop color="LIME" />
+                  <Stop color="RED" offset="0.9" />
+                  <Stop color="RED" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Polygon>
+      <ImageView fitHeight="42.0" fitWidth="60.0" layoutX="1465.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Desktop/HappyDozer.png" />
+         </image>
+      </ImageView>
+	</children>
+</AnchorPane>
