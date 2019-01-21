@@ -29,7 +29,7 @@
       </Polygon>
       <ImageView fitHeight="42.0" fitWidth="60.0" layoutX="1465.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../Desktop/HappyDozer.png" />
+            <Image url="@../HappyDozer.png" />
          </image>
       </ImageView>
 	</children>
